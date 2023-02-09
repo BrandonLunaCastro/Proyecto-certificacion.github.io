@@ -1,0 +1,61 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.color_lista{
+    font-weight: bolder;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+.imagen_hombre{
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+}
+
+.footer{
+    height: 300px;
+    text-align: center;
+ 
+}
+html{
+    scroll-behavior: smooth;
+}
+.form-validacion-estado{
+    position: absolute;
+    top:10px;
+    right: 10px ;
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;  
+}
+
+.form-input-error{
+    font-size: 12px;
+    margin-bottom: 0px;
+    display: none;
+}
+.form-input-error-activo{
+    display: block;
+}
+
+.formulario-grupo-correcto .form-validacion-estado{
+    color: rgb(46, 214, 46);
+    opacity: 1;
+}
+
+.formulario-grupo-incorrecto .form-label {
+    color: red;
+}
+
+.formulario-grupo-incorrecto .form-validacion-estado{
+    color: red;
+    opacity: 1;
+}
+
+
+.formulario-grupo-incorrecto .form-control{
+    border: 3px solid red;
+}

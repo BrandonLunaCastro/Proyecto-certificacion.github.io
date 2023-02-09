@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--- Importacion de Framework Boostrap 5 --->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+   <!--Importacion de la fuente Raleway-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <title>Curruculum vitae</title>
+</head>
+<body>
+  <header class="cabecera ">
+       <!--Barra de Navegación-->
+      <ul class="nav justify-content-end color_lista nav-dark bg-dark container-fluid">
+        <li class="nav-item">
+          <a class="nav-link active color_lista" aria-current="page" href="#">Ricky Coleman</a>
+        </li>
+        <li class="nav-item ms-auto">
+          <a class="nav-link color_lista" href="#biografia">Biografia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link color_lista" href="#formacion">Formación</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link color_lista" href="#experiencia">Experiencia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link color_lista" href="#habilidades">Habilidades</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link color_lista" href="#contacto">Contacto</a>
+        </li>
+      </ul> 
+    </header>
+ <section class="container-sm mt-5 ">
+    <div class="row ">
+      <div class="col-sm-12 col-md-6 col-lg-8 col-xl-8" id="biografia">
+          <h2>Biografia</h2>
+       <!--Parrafo extraido desde: https://es.lipsum.com/ -->   
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at ornare ex, id maximus justo. Vestibulum venenatis egestas nunc id gravida. Sed non magna ligula. Ut sed cursus metus, interdum condimentum sapien. Mauris vulputate, velit vitae mattis pulvinar, mauris lorem tincidunt justo, ut vestibulum metus est ac leo. Maecenas mattis, erat vel aliquam efficitur, risus erat sollicitudin nibh, id sagittis odio dolor non felis. Praesent in urna purus. Vestibulum condimentum ex mi, quis luctus massa tincidunt quis. Curabitur tincidunt elit mattis libero lacinia eleifend. Proin non efficitur libero, sit amet tempus nibh. Praesent diam mauris, vestibulum sit amet nisi vitae, malesuada gravida nibh. Duis ut dolor sit amet odio molestie dapibus ac sit amet ipsum.</p>
+        </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+        <!-- Imagen extraida de: https://randomuser.me/ -->
+        <img src="imagenes/imagen_hombre.jpg" class=" rounded mx-auto d-block img-fluid imagen_hombre m-" alt="...">
+      </div>
+    </div>
+  </section>
+ <div class="container-fluid ml-5 bg-primary"  id="formacion">
+    <div class="row mt-5 d-flex align-items-center justify-content-center pb-4">
+      <h2 class="mt-4 mb-5 ">Formación</h2>  
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 d-flex justify-content-center">  
+          <div class="card mb-5 mx-auto" style="width: 18rem;">
+            <!--Imagen de la escuela MIT : https://th.bing.com/th/id/R.3f5fe6562b380743a3f2a75cd622504a?rik=dAkfpoa7kCFqYw&riu=http%3a%2f%2fwonderfulengineering.com%2fwp-content%2fuploads%2f2013%2f12%2fmit-massachusetts-institute-of-technology-logo-wallpaper.jpg&ehk=MxbUTxv%2b%2f%2fFghxZ%2bWxI6Dx%2bMwYZdIkSxxMKlOmxK0V0%3d&risl=&pid=ImgRaw&r=0-->
+            <img src="imagenes/LOGO_MIT.jpeg" class="card-img-top" alt="Imagen de la universidad a la que asistio">
+            <div class="card-body">
+              <h5 class="card-title " >Instituto de Tecnología de Massachusetts</h5>
+              <p class="card-text ">2005 - 2010</p>
+              <a href="#" class="btn btn-primary ">Ir al sitio web</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-7 ">
+          <div class="card  mx-5 mx-auto img-fluid " style="width: 18rem;">
+            <!--Imagen de la escuela Lexington Hig School : https://th.bing.com/th/id/OIP.jlOWCCRtR-ZRo5VoOnFJqwHaEK?pid=ImgDet&rs=1-->
+            <img src="imagenes/secundaria.jpg" class="card-img-top" alt="Imagen de la escual secundaria a la que asistio">
+            <div class="card-body">
+              <h5 class="card-title " >Lexington High School </h5>
+              <p class="card-text ">2000 - 2004</p>
+              <a href="#" class="btn btn-primary ">Ir al sitio web</a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="container-sm mt-5" id="experiencia"> 
+    <h2 >Experiencia</h2>
+    <table class="table table table-hover table-info mt-5">
+      <thead>
+        <tr>
+          <th scope="col">Empresa</th>
+          <th scope="col">Cargo</th>
+          <th scope="col">Años</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row" >Lorem ipsum</th>
+          <td>Praesent lorem tellus</td>
+          <td>2011-2012</td>
+        </tr>
+        <tr>
+          <th scope="row">Sed in pharetra turpis</th>
+          <td>Donec elementum</td>
+          <td>2013-2015</td>
+        </tr>
+        <tr>
+          <th scope="row">tortor mauris</th>
+          <td>neque ac consequat.</td>
+          <td>2015-2020</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="container-fluid bg-primary " id="habilidades">
+    <h2 class="mt-5 pt-4">Habilidades</h2>
+    <div class="accordion accordion-flush mt-5 pb-5" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+           Trabajo en equipo
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu tortor et lacus vehicula euismod. Sed nec interdum ante, non tincidunt nisl. Fusce eu eleifend leo. Nullam at ullamcorper sem. Fusce ut tellus ac turpis tincidunt sodales. Duis hendrerit venenatis ipsum sed tincidunt. Quisque elit nisl, eleifend quis orci eu.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Resolución de problemas
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu dolor tincidunt, placerat augue sed, elementum lacus. Etiam dui mi, gravida nec varius nec, pulvinar malesuada purus. Quisque neque justo, gravida quis neque vel, fringilla ullamcorper ligula. Donec vehicula, quam sit amet feugiat aliquet, dolor turpis scelerisque nisi, a mattis metus.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Liderazgo
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio magna, dapibus accumsan euismod non, hendrerit hendrerit nulla. Ut consequat posuere est, ac ultricies elit accumsan blandit. Sed egestas, justo vitae dapibus egestas, arcu elit sodales ligula, in faucibus est ante non velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec fringilla magna nisl, nec elementum est finibus id. Ut in purus neque. Mauris lorem nunc, pulvinar id placerat at, interdum leo.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Ética de trabajo
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis gravida erat. Quisque scelerisque feugiat orci, eu iaculis ipsum aliquam ut. In varius tempus diam sit amet lobortis. Aliquam egestas vel metus ac volutpat. Nam hendrerit leo ut dolor ornare facilisis. Ut eu vehicula neque. Etiam ut sodales tortor. Cras quis nisi viverra, iaculis felis tempor, malesuada leo. Nullam quis augue ut elit suscipit porttitor. Fusce tincidunt accumsan est ut commodo. Nullam eu nulla orci. Duis odio ipsum, porttitor quis maximus quis, facilisis sit amet nisl. Pellentesque justo.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Comienza la parte del Formulario-->
+  <div class="container-sm mb-5 " id="contacto"> 
+    <h2 class="mt-5 mb-5">¿Quieres Contactarme?</h2>
+    <form class="row g-3 " id="formulario">
+      <!--Formulario Nombre-->
+      <div class="col-6 formulario-grupo " id="grupo__nombre">
+        <label for="nameId" class="form-label" >Nombre</label>
+        <div class="position-relative">
+        <input type="text" class="form-control " name="nombre" id="nombre" placeholder="John Doe">
+        <i class="form-validacion-estado fa-solid fa-circle-xmark" ></i>
+        </div> 
+        <p class="form-input-error">El nombre puede tener entre 4 a 16 digitos y solo puede llevar letras, espacios y acentos</p>
+      </div>
+      <!--Formulario Email-->
+      <div class="col-6 formulario-grupo " id="grupo__email" >
+        <label for="email" class="form-label" >Email</label>
+      <div class="position-relative">
+        <input type="email" class="form-control" name="email" id="email" placeholder="correo@gmail.com" >
+        <i class="form-validacion-estado fa-solid fa-circle-xmark"></i>
+      </div>
+        <p class="form-input-error">El correo puede contener numeros,letras, puntos y guiones</p>
+      </div>
+      <!--Formulario Telefono-->
+      <div class="col-6 formulario-grupo "  id="grupo__telefono">
+        <label for="phoneid" class="form-label">Teléfono</label>
+      <div class="position-relative">
+        <input type="number" class="form-control"  name="telefono" id="telefono" placeholder="49557455">
+        <i class="form-validacion-estado fa-solid fa-circle-xmark"></i>
+     </div> 
+        <p class="form-input-error">Este campo debe contener de 7 a 14 numeros</p>
+      </div>
+         <!--Formulario Mensaje-->
+      <div class="col-6 formulario-grupo " id="grupo__mensaje">
+        <label for="textInput" class="form-label" >Mensaje</label>
+      <div class="position-relative">
+        <input type="text" class="form-control" name="mensaje" id="mensaje" placeholder="Message">
+        <i class="form-validacion-estado fa-solid fa-circle-xmark"></i>
+      </div>
+      <p class="form-input-error">El mensaje puede contener espacios,letras, numeros ,guion y acentos</p>
+      </div>
+      <div><button type="submit" class=" col-2 btn btn-success mt-4 btn-enviar" ">Enviar</button></div>
+    </form>
+  </div>
+  <footer class="container-fluid bg-dark footer d-flex justify-content-center align-items-center " "> 
+      <p class="text-light">&copy Copyright Brandon Luna - 2023</p> 
+  </footer>
+  <!--- Importacion de Framework Boostrap 5 --->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+     <!--Importacion de Font Awesome-->
+  <script src="https://kit.fontawesome.com/b94ace870d.js" crossorigin="anonymous"></script>
+  <script src="jscript/script.js"></script>
+</body>
+</html>
